@@ -1,0 +1,11 @@
+create database phpteste;
+use phpteste;
+create table contato(
+id integer auto_increment primary key,
+nome varchar(100),
+email varchar(100),
+mensagem varchar(250));
+
+INSERT INTO contato (nome, email, mensagem) VALUES('Wendeley', '111@gmail.com', 'Envio de teste');
+INSERT INTO contato (nome, email, mensagem) VALUES('Wendeley', '222@gmail.com', 'Envio de teste');
+INSERT INTO contato (nome, email, mensagem) VALUES('Wendeley', '333@gmail.com', 'Envio de teste');
